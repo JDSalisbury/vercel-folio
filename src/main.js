@@ -3,8 +3,9 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import vuetify from './plugins/vuetify'
-
+import VueParticlesBg from 'particles-bg-vue'
 Vue.config.productionTip = false
+Vue.use(VueParticlesBg)
 
 new Vue({
   router,
