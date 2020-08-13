@@ -9,3 +9,9 @@ export default {
   data: () => ({})
 }
 </script>
+
+<style>
+body {
+  background-color: black;
+}
+</style>
