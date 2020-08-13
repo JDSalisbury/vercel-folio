@@ -3,20 +3,20 @@
     <ParaBanner bgImage="hexblue.png" />
     <div class="base">
       <Space />
-
-      <Section image="space-universe-stars.jpg" />
-      <Space />
-
       <Section image="windows_xp_bliss.jpg" />
       <Space />
-
-      <Section image="blugree.jpg" />
+      <Projects />
       <Space />
 
       <Section image="space-universe-stars.jpg" />
-
       <Space />
-      <div style="background-color: white;"></div>
+
+      <!-- <Section image="blugree.jpg" />
+      <Space />
+
+      <Section image="space-universe-stars.jpg" /> -->
+
+      <!-- <Space /> -->
     </div>
     <ParaBanner bgImage="blugree.jpg" />
     <Footer />
@@ -34,7 +34,8 @@ export default {
     ParaBanner: () => import('@/components/para-banner'),
     Section: () => import('@/components/section-card'),
     Space: () => import('@/components/space'),
-    Footer: () => import('@/components/footer')
+    Footer: () => import('@/components/footer'),
+    Projects: () => import('@/components/projects')
   }
 }
 </script>

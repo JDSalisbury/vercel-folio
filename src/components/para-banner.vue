@@ -1,6 +1,6 @@
 <template>
   <v-parallax dark height="400" :src="require('../assets/' + bgImage)">
-    <v-row align="end" class="fill-height">
+    <!-- <v-row align="end" class="fill-height">
       <v-col align-self="start" class="pa-0" cols="11">
         <v-avatar class="profile" color="grey" size="200" tile>
           <v-img :src="require('../assets/noodz.jpg')"></v-img>
@@ -13,6 +13,12 @@
             <v-list-item-subtitle>Software Engineer</v-list-item-subtitle>
           </v-list-item-content>
         </v-list-item>
+      </v-col>
+    </v-row> -->
+    <v-row class="centered" align="center" justify="center">
+      <v-col class="text-center centered" cols="12">
+        <h1 class="display-1 font-weight-thin mb-4">Vuetify.js</h1>
+        <h4 class="subheading">Build your application today!</h4>
       </v-col>
     </v-row>
   </v-parallax>
@@ -31,5 +37,10 @@ export default {
   margin-right: 810px;
   padding-left: 20px;
   border-radius: 58%;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
 }
 </style>
