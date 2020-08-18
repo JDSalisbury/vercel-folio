@@ -18,7 +18,7 @@
 
       <!-- <Space /> -->
     </div>
-    <ParaBanner bgImage="blugree.jpg" />
+    <About bgImage="blugree.jpg" />
     <Footer />
     <particles-bg color="#ffffff" type="cobweb" :bg="true" />
   </div>
@@ -35,7 +35,8 @@ export default {
     Section: () => import('@/components/section-card'),
     Space: () => import('@/components/space'),
     Footer: () => import('@/components/footer'),
-    Projects: () => import('@/components/projects')
+    Projects: () => import('@/components/projects'),
+    About: () => import('@/components/about')
   }
 }
 </script>
